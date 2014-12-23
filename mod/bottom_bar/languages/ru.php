@@ -1,0 +1,46 @@
+<?php
+/** Language pack */
+
+$russian = array(
+	'bbar:admin:allowchat' => "Разрешить чат?", 
+	'bbar:admin:allowmenu' => "Включить ELGG меню, нажав на логотип?", 
+	'bbar:admin:allowradio' => "Включить Радио-кнопку?", 
+	'bbar:admin:allowsounds' => "Включить звуки уведомлений в чате?", 
+	'bbar:admin:basicopts' => "Основные Параметры", 
+	'bbar:admin:dbmysqldbase' => "Базы данных", 
+	'bbar:admin:dbmysqlhost' => "Хост<br>(FQDN или IP)", 
+	'bbar:admin:dbmysqlopts' => "<b>Функции Mysql</b> (игнорировать, если вы выбрали SQLite выше)", 
+	'bbar:admin:dbmysqlpass' => "Пароль", 
+	'bbar:admin:dbmysqlprefix' => "Префикс таблиц", 
+	'bbar:admin:dbmysqlsettings' => "<b>Пользовательские настройки Mysql</b><br>(игнорировать при использовании SQLite или ELGG объектов)", 
+	'bbar:admin:dbmysqluser' => "Имя пользователя<br>(Должен обладать правами на создание)", 
+	'bbar:admin:dbopts' => "Параметры Базы Данных", 
+	'bbar:admin:dboptsdesc' => "Этот плагин может использовать либо собственные базы данных SQLite (которых подходят для небольших и средних сайтов) или может  использовать MySQL через объекты ELGG. Если вы не уверены, какой параметр использовать, используйте SQLite", 
+	'bbar:admin:dboptstype' => "Тип базы данных", 
+	'bbar:admin:dboptsuseelgg' => "Использование ELGG Настройки/Базы данных", 
+	'bbar:admin:forceloginpage' => "Перенаправлять пользователей на страницу входа в систему, если они вышли?", 
+	'bbar:admin:idlethreshold' => "Порог бездействия пользователя", 
+	'bbar:admin:logolocation' => "Логотип будет использоваться внизу слева:<br>(Оставьте пустым для использования по умолчанию. Может быть в формате jpg,gif или png. Для сохранения файла в /mod/bottom_bar/графика/icons/)", 
+	'bbar:admin:minute' => "минута", 
+	'bbar:admin:minutes' => "минут", 
+	'bbar:admin:nosqlite' => "Расширение SQLite не установлено - используются объекты ELGG", 
+	'bbar:admin:offlinethreshold' => "Порог нахождения в офлайне", 
+	'bbar:admin:radiourl' => "URL потока для радио<br>(должна быть в формате MP3, или сервер icecast)", 
+	'bbar:admin:refreshrate' => "Частота обновления<br>(больше времени = меньше нагрузки на сервер)", 
+	'bbar:admin:second' => "секунда", 
+	'bbar:admin:seconds' => "секунд", 
+	'bbar:bar:friends' => "Друзья", 
+	'bbar:bar:istyping' => "набрав", 
+	'bbar:bar:noneonline' => "Нет друзей онлайн", 
+	'bbar:bar:notifications' => "Уведомления", 
+	'bbar:bar:notify.all' => "Все", 
+	'bbar:bar:notify.mine' => "Мое", 
+	'bbar:bar:offline' => "офлайн", 
+	'bbar:bar:online' => "онлайн", 
+	'bbar:user:enablechat' => "Включить чат?", 
+	'bbar:user:enableicons' => "Показать значки пользователей в списке друзей?", 
+	'bbar:user:enablesounds' => "Включить звуки?", 
+	);
+
+add_translation("ru", $russian);
+?>

@@ -1,0 +1,70 @@
+<?php
+/** Language pack */
+
+$russian = array(
+	'admin:inbox' => "Входящие Параметры", 
+	'admin:inbox:message_types' => "Типы Сообщений", 
+	'item:object:message:create' => "Добавить новое сообщение типа", 
+	'item:object:message:name' => "Уникальное имя типа", 
+	'item:object:message:setting:multiple' => "Разрешить нескольким получателям", 
+	'item:object:message:setting:attachments' => "Разрешить файл вложения", 
+	'item:object:message:setting:persistent' => "Сделать постоянным (и не могут быть удалены путем получателя)", 
+	'item:object:message:setting:policy' => "Коммуникационная политика", 
+	'item:object:message:setting:policy:help' => "Определяет группы пользователей, между которыми осуществляется это взаимодействие.
+\"Отправителя\" и \"Получателя\" поля укажите типы пользователей (на основе своей \"роли\" на сайте).
+\"Отношения, чтобы получатель\" указывается тип отношений, которые должны существовать между Отправителем и Получателем этой связи, чтобы быть допустимыми (напр. Отправитель должны быть другом Получателя).
+\"Обратная связь\" указывает, что тип отношений, которые должны быть перевернутыми (напр. Получатель должны быть другом Отправителя для Отправителя, чтобы иметь возможность связаться с Получателем)
+\"Взаимоотношения отправителя к группе\" создает дополнительный уровень фильтрации, принимая во внимание, что 1) Получатель должен быть членом группы, и 2) Отправитель должен иметь определенное отношение с этой группой (напр. установка этого \"члена\" - указывает, что этот тип связи может возникнуть только между членами одной группы)
+", 
+	'item:object:message:all' => "Все Сообщения", 
+	'hj:inbox:admin:import' => "Импорт старых сообщений", 
+	'hj:inbox:admin:import_stats' => "%s сообщения отсутствуют сведения о метаданных, необходимых для совместимости hypeInbox", 
+	'hj:inbox:admin:import_start' => "Начать Импорт", 
+	'hj:inbox:admin:import_complete' => "Импорт завершен", 
+	'hj:inbox:user_type:all' => "Любой пользователь", 
+	'hj:inbox:user_type:admin' => "Администратор", 
+	'hj:inbox:user_type:editor' => "Редактор", 
+	'hj:inbox:user_type:supervisor' => "Руководитель", 
+	'hj:inbox:user_type:observer' => "Наблюдатель", 
+	'item:object:message:label:singular' => "Этикетки (в единственном числе)", 
+	'item:object:message:label:plural' => "Label (множественное число)", 
+	'hj:inbox:send' => "Отправить %s", 
+	'hj:inbox:sender' => "Отправитель", 
+	'hj:inbox:relationship' => "Отношение к получателю", 
+	'hj:inbox:recipient' => "Получатель", 
+	'hj:inbox:inverse_relationship' => "Обратная связь", 
+	'hj:inbox:group_relationship' => "Взаимоотношения отправителя группе, что получатель является членом", 
+	'hj:inbox' => "Сообщения", 
+	'hj:inbox:all' => "Все сообщения", 
+	'hj:inbox:inbox' => "Входящие", 
+	'hj:inbox:sent' => "Отправленные сообщения", 
+	'hj:inbox:compose' => "Сочинять", 
+	'hj:inbox:usersettings:grouping' => "Группа входящие сообщения отправителем", 
+	'hj:inbox:group' => "Группы", 
+	'hj:inbox:dontgroup' => "Не Группа", 
+	'hj:inbox:message_not_found' => "Сообщение не найдено", 
+	'hj:inbox:untitled' => "Без названия", 
+	'hj:inbox:you' => "Вы", 
+	'hj:inbox:thread' => "Просмотреть все %s сообщения в этой теме", 
+	'hj:inbox:thread:unread' => "%s new", 
+	'hj:inbox:message' => "Сообщение: %s", 
+	'hj:inbox:conversation' => "Разговор между вами и %s", 
+	'hj:inbox:nomessages' => "Нет сообщений в этой папке", 
+	'messages:attachments' => "Вложения", 
+	'hj:inbox:load:before' => "Загрузить предыдущие %s сообщения", 
+	'hj:inbox:load:after' => "Загрузить следующий %s сообщения", 
+	'hj:inbox:delete' => "Удалить", 
+	'hj:inbox:markread' => "Пометить как прочитанное", 
+	'hj:inbox:markunread' => "Пометить как непрочитанное", 
+	'hj:inbox:delete:success' => "%s %s сообщения были успешно удалены", 
+	'hj:inbox:markread:success' => "%s %s сообщения были помечены как прочитанные", 
+	'hj:inbox:markunread:success' => "%s %s сообщения были помечены как непрочитанные", 
+	'hj:inbox:error:notfound' => "%s сообщения не может быть найден", 
+	'hj:inbox:error:persistent' => "%s сообщения cound не будут удалять из-за их \" только чтение\"", 
+	'hj:inbox:error:unknown' => "%s сообщения не могут быть удалены из-за неизвестной ошибки", 
+	'hj:inbox:delete:thread:confirm' => "Вы уверены, что хотите удалить все сообщения в этой теме?", 
+	'hj:inbox:delete:message:confirm' => "Вы уверены, что хотите удалить это сообщение?", 
+	);
+
+add_translation("ru", $russian);
+?>

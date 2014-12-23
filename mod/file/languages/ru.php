@@ -1,0 +1,80 @@
+<?php
+/** Language pack */
+
+$russian = array(
+	'file' => "файлы", 
+	'file:add' => "Загрузить файл", 
+	'file:all' => "Все файлы", 
+	'file:cannotload' => "Простите, произошла ошибка при загрузке файла. Попробуйте снова.", 
+	'file:delete:confirm' => "Удалить этот файл?", 
+	'file:deleted' => "Ваш файл успешно удален.", 
+	'file:deletefailed' => "Простите, файл не удален.", 
+	'file:desc' => "Описание", 
+	'file:display:number' => "Число отображаемых файлов", 
+	'file:download' => "Скачать", 
+	'file:downloadfailed' => "Простите, файл сейчас недоступен.", 
+	'file:edit' => "Редактировать файл", 
+	'file:embed' => "Вложенное", 
+	'file:embedall' => "Все", 
+	'file:file' => "Файл", 
+	'file:friends' => "Файлы друзей", 
+	'file:friends:type:audio' => "Аудио Ваших друзей", 
+	'file:friends:type:document' => "Документы Ваших друзей", 
+	'file:friends:type:general' => "Основные файлы Ваших друзей", 
+	'file:friends:type:image' => "Изображения Ваших друзей", 
+	'file:friends:type:video' => "Видео Ваших друзей", 
+	'file:gallery' => "в виде галереи", 
+	'file:gallery_list' => "В виде галереи или списка", 
+	'file:group' => "Файлы группы", 
+	'file:list' => "в виде списка", 
+	'file:list:gallery' => "Переключитесь на вид галереи", 
+	'file:list:list' => "Переключение в режим просмотра списка", 
+	'file:list:title' => "%s %s %s", 
+	'file:more' => "Еще файлы", 
+	'file:newupload' => "Новый файл загружен", 
+	'file:noaccess' => "У Вас нет прав для изменения этого файла.", 
+	'file:nofile' => "Вам нужно выбрать файл", 
+	'file:none' => "Файлов нет.", 
+	'file:notification' => "%s загрузил новый файл:
+
+%s
+%s
+
+Просмотреть и Комментировать новый файл:
+%s
+", 
+	'file:num_files' => "Число отображаемых файлов", 
+	'file:replace' => "Заменить файл (оставьте пустым чтобы не менять файл)", 
+	'file:saved' => "Ваш файл успешно сохранен.", 
+	'file:tagcloud' => "Облако тегов", 
+	'file:tags' => "Теги", 
+	'file:title' => "Название", 
+	'file:title:friends' => "Файлы друзей", 
+	'file:type:' => "Файлы", 
+	'file:type:all' => "Все файлы", 
+	'file:type:audio' => "Аудио", 
+	'file:type:document' => "Документы", 
+	'file:type:general' => "Основные файлы", 
+	'file:type:image' => "Изображения", 
+	'file:type:video' => "Видео", 
+	'file:types' => "Типы загружаемых файлов", 
+	'file:upload' => "Загрузить файл", 
+	'file:uploadfailed' => "Простите, файл не сохранен.", 
+	'file:user' => "Файлы пользователя %s", 
+	'file:user:gallery' => "Просмотреть галерею %s", 
+	'file:user:type:audio' => "Аудио %s", 
+	'file:user:type:document' => "Документы %s", 
+	'file:user:type:general' => "Основные файлы %s", 
+	'file:user:type:image' => "Изображения %s", 
+	'file:user:type:video' => "Видео %s", 
+	'file:via' => "через файлы", 
+	'file:widget' => "Файлы", 
+	'file:widget:description' => "Ваши последние файлы", 
+	'groups:enablefiles' => "Включить файлы в группе", 
+	'item:object:file' => "Файлы", 
+	'river:comment:object:file' => "%s прокомментировал(а) файл %s", 
+	'river:create:object:file' => "%s загрузил(а) файл %s", 
+	);
+
+add_translation("ru", $russian);
+?>
