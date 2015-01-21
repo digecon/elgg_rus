@@ -1,4 +1,4 @@
-# Russian language for ELGG
+# Russian language for ELGG 1.8, 1.9
 ### Translated modules:
 *	blog
 *	blog_copy
