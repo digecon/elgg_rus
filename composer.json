@@ -4,6 +4,6 @@
 	"description":"Russian language for ELGG",
 	"license" : "MIT",
 	"require": {
-		"composer/installers": "~"	
+		"composer/installers": "*"	
 	}
 }
